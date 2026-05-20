@@ -1,0 +1,49 @@
+# Lab Setup
+
+## Objective
+
+Build an enterprise Active Directory homelab using Windows Server 2022 and VMware.
+
+## Environment
+
+Virtualization Platform:
+- VMware Workstation
+
+Server:
+- DC01
+- Windows Server 2022 Standard
+
+Domain:
+- gallegos.local
+
+Network Configuration:
+
+IP Address:
+192.168.10.10
+
+Subnet Mask:
+255.255.255.0
+
+Gateway:
+192.168.10.1
+
+DNS:
+192.168.10.10
+
+## Installed Roles
+
+- Active Directory Domain Services
+- DNS Server
+- DHCP Server
+
+## Organizational Units
+
+- IT
+- HR
+- Sales
+- Workstations
+- Servers
+
+## Purpose
+
+This environment simulates a small enterprise infrastructure used for identity management, access control, and shared resources.
