@@ -6,7 +6,7 @@ This project demonstrates the deployment of a Windows Server 2022 Active Directo
 
 The lab includes:
 
-Domain Controller deployment
+- Domain Controller deployment
 - Active Directory Domain Services (AD DS)
 - Organizational Unit (OU) design
 - User and group administration
@@ -19,10 +19,12 @@ Domain Controller deployment
 ---
 
 ## Technologies Used
+- VMware Workstation
 - Windows Server 2022
 - Active Directory Domain Services (AD DS)
 - Organizational Units (OUs)
 - Users and Groups
+- DNS
 - Shared Resources
 - NTFS Permissions
 
@@ -72,3 +74,5 @@ Domain Controller deployment
 - NTFS Permissions
 - Windows Client Administration
 - Troubleshooting
+
+This project was built to develop hands-on experience with enterprise Windows environments and foundational system administration concepts.
