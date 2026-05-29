@@ -41,34 +41,35 @@ Domain Controller deployment
 
 
 ## Screenshots
-1. Domain Controller Configuration
+- Domain Controller Configuration
 
-2. Organizational Unit Structure
+- Organizational Unit Structure
 
-3. Users and Groups
+- Users and Groups
 
-4. User and Group Details
+- User and Group Details
 
-5. Group Membership
+- Group Membership
 
-6. Share Permissions
+- Share Permissions
 
-7. Client Domain Join
+- Client Domain Join
 
-8. Client Object in Active Directory
+- Client Object in Active Directory
 
-9. Share Access Verification
+- Share Access Verification
 
 ---
 
 ## Skills Demonstrated
 
-- Windows Server Administration
 - Active Directory Administration
-- DHCP Configuration
+- User and Group Management
+- Organizational Unit Design
+- Security Group Management
+- Windows Server Administration
 - DNS Configuration
-- Group Policy Management
-- User and Permission Management
-- Virtualization
-- Security Monitoring
+- SMB File Sharing
+- NTFS Permissions
+- Windows Client Administration
 - Troubleshooting
