@@ -111,10 +111,10 @@ CLIENT01 (Windows 11)
 ![Locked Account](screenshots/14_Account_Locked_Out.png)
 
 ### 15. Drive Mapping GPO
-![Drive Mapping](screenshots/15_Drive_Mapping_GPO.png
+![Drive Mapping](screenshots/15_Drive_Mapping_GPO.png)
 
 ### 16. DHCP Scope Configuration
-![DHCP Scope](screenshots/16_DHCP_Scope.png
+![DHCP Scope](screenshots/16_DHCP_Scope.png)
 
 ### 17. DHCP Address Pool
 ![DHCP Pool](screenshots/17_DHCP_Address_Pool.png)
@@ -132,7 +132,6 @@ CLIENT01 (Windows 11)
 - NTFS Permissions
 - Windows Client Administration
 - Troubleshooting
-- Group Policy Management
 - Password Policy Administration
 - Active Directory Security
 - DHCP Administration
