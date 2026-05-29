@@ -42,6 +42,7 @@ The lab includes:
 ---
 ## Lab Architecture
 
+```text
 DC01 (192.168.10.10)
 │
 ├── Active Directory
@@ -53,11 +54,12 @@ CLIENT01 (192.168.10.20)
 │
 ├── Domain Joined
 └── Share Access Testing
+```
 
 ---
 
 ## Screenshots
-### Domain Controller Configuration
+### 1. Domain Controller Configuration
 ![DC01](screenshots/01_DC01_Configured.png)
 
 ### 2. Organizational Unit Structure
