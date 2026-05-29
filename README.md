@@ -104,14 +104,14 @@ CLIENT01 (Windows 11)
 
 Detailed implementation guides are available in the documentation folder:
 
-- Lab_Setup.md
-- User_Creation.md
-- Group_Configuration.md
-- File_Share_Setup.md
-- Password_Policy_GPO.md
-- Account_Lockout_Policy.md
-- Drive_Mapping_GPO.md
-- DHCP_Configuration.md
+- [Lab Setup](documentation/Lab_Setup.md)
+- [User Creation](documentation/User_Creation.md)
+- [Group Configuration](documentation/Group_Configuration.md)
+- [File Share Setup](documentation/File_Share_Setup.md)
+- [Password Policy GPO](documentation/Password_Policy_GPO.md)
+- [Account Lockout Policy](documentation/Account_Lockout_Policy.md)
+- [Drive Mapping GPO](documentation/Drive_Mapping_GPO.md)
+- [DHCP Configuration](documentation/DHCP_Configuration.md)
   
 ---
 
