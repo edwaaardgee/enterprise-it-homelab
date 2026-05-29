@@ -1,62 +1,129 @@
 # Group Configuration
 
+## Overview
+
+This lab demonstrates the use of Active Directory security groups to manage access to departmental resources.
+
+Security groups were created to simplify permission management and implement Role-Based Access Control (RBAC). Rather than assigning permissions directly to individual users, permissions are assigned to groups and users are added as members of those groups.
+
+---
+
 ## Security Groups
 
 ### IT_Admins
 
-Purpose:
+**Purpose**
 
-Provides administrative access to IT resources.
+Provides administrative access to IT department resources.
 
-Members:
+**Members**
 
-- Edward IT
-- Manager IT
+* Edward IT
+* Manager IT
 
-Permissions:
+**Permissions**
 
-Full Control for IT shared folder.
+* Full Control on IT_Share
+* Administrative access to IT resources
 
 ---
 
 ### HR_Users
 
-Purpose:
+**Purpose**
 
-Provides access to HR documents.
+Provides access to Human Resources department resources.
 
-Members:
+**Members**
 
-- Edward HR
+* Edward HR
 
-Permissions:
+**Permissions**
 
-Read and Modify access to HR shared folder.
+* Read
+* Modify
+
+Applied to:
+
+* HR_Share
 
 ---
 
 ### Sales_Users
 
-Purpose:
+**Purpose**
 
-Reserved for Sales department access.
+Provides access to Sales department resources.
 
-Permissions:
+**Members**
 
-Read and Modify access to Sales shared folder.
+* No users assigned during this phase of the lab
+
+**Permissions**
+
+* Read
+* Modify
+
+Applied to:
+
+* Sales_Share
 
 ---
 
 ## Access Model
 
-Role Based Access Control (RBAC)
+Role-Based Access Control (RBAC)
 
-Users → Groups → Permissions
+```text
+Users
+  ↓
+Security Groups
+  ↓
+Permissions
+  ↓
+Resources
+```
 
 Example:
 
+```text
 Edward IT
-↓
+    ↓
 IT_Admins
-↓
-IT Share Access
+    ↓
+Full Control
+    ↓
+IT_Share
+```
+
+---
+
+## Validation
+
+The following tests were completed:
+
+* Created Active Directory security groups
+* Added users to appropriate groups
+* Verified group membership in Active Directory Users and Computers
+* Applied permissions through group membership
+* Verified resource access after domain authentication
+
+---
+
+## Skills Demonstrated
+
+* Active Directory Administration
+* Security Group Management
+* Role-Based Access Control (RBAC)
+* User Provisioning
+* Access Control
+* Windows Server Administration
+* Permission Management
+
+---
+
+## Enterprise Concept
+
+Enterprise environments commonly use security groups to manage permissions rather than assigning permissions directly to users.
+
+This approach improves scalability, simplifies administration, and supports the Principle of Least Privilege by granting users only the access required for their job role.
