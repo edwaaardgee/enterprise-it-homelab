@@ -71,53 +71,29 @@ CLIENT01 (Windows 11)
 ### 1. Domain Controller Configuration
 ![DC01](screenshots/01_DC01_Configured.png)
 
-### 2. Organizational Unit Structure
-![OU Structure](screenshots/02_OU_Structure.png)
-
-### 3. Users and Groups
+### 2. Users and Groups
 ![Users and Groups](screenshots/03_Users_and_Groups.png)
 
-### 4. User and Group Details
-![User and Group Details](screenshots/04_Users_and_Groups_Detail.png)
-
-### 5. Group Membership
-![Group Membership](screenshots/05_Group_Membership.png)
-
-### 6. Share Permissions
+### 3. Share Permissions
 ![Share Permissions](screenshots/06_File_Share_Permissions.png)
 
-### 7. Client Domain Join
+### 4. Client Domain Join
 ![Client Domain Join](screenshots/07_Client_Joined_Domain.png)
 
-### 8. Client Object in Active Directory
-![Client In AD](screenshots/08_Client_In_Active_Directory.png)
-
-### 9. Share Access Verification
+### 5. Share Access Verification
 ![Share Access](screenshots/09_Share_Access_Verified.png)
 
-### 10. Password Policy (Before)
-![Password Policy Before](screenshots/10_Password_Policy_Before.png)
-
-### 11. Password Policy Configured
-![Password Policy Configured](screenshots/11_Password_Policy_Configured.png)
-
-### 12. Password Policy Verified
+### 6. Password Policy Verified
 ![Password Policy Verified](screenshots/12_Password_Policy_Verified.png)
 
-### 13. Account Lockout Policy
-![Account Lockout](screenshots/13_Account_Lockout_Policy.png)
-
-### 14. Locked Account Verification
+### 7. Locked Account Verification
 ![Locked Account](screenshots/14_Account_Lockedout_Verified.png)
 
-### 15. Drive Mapping GPO
+### 8. Drive Mapping GPO
 ![Drive Mapping](screenshots/15_Drive_Mapping_GPO.png)
 
-### 16. DHCP Scope Configuration
+### 9. DHCP Scope Configuration
 ![DHCP Scope](screenshots/16_DHCP_Scope.png)
-
-### 17. DHCP Address Pool
-![DHCP Pool](screenshots/17_DHCP_Address_Pool.png)
 
 ---
 
