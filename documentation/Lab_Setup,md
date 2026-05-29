@@ -2,48 +2,107 @@
 
 ## Objective
 
-Build an enterprise Active Directory homelab using Windows Server 2022 and VMware.
+Build an enterprise Active Directory homelab using Windows Server 2022 and VMware Workstation to develop hands-on experience with identity management, user administration, resource access, and enterprise infrastructure concepts.
+
+---
 
 ## Environment
 
-Virtualization Platform:
-- VMware Workstation
+### Virtualization Platform
 
-Server:
-- DC01
-- Windows Server 2022 Standard
+* VMware Workstation
 
-Domain:
-- gallegos.local
+### Server
 
-Network Configuration:
+| Component        | Value                        |
+| ---------------- | ---------------------------- |
+| Hostname         | DC01                         |
+| Operating System | Windows Server 2022 Standard |
+| Role             | Domain Controller            |
 
-IP Address:
-192.168.10.10
+### Domain
 
-Subnet Mask:
-255.255.255.0
+```text
+gallegos.local
+```
 
-Gateway:
-192.168.10.1
+---
 
-DNS:
-192.168.10.10
+## Network Configuration
+
+| Setting         | Value         |
+| --------------- | ------------- |
+| IP Address      | 192.168.10.10 |
+| Subnet Mask     | 255.255.255.0 |
+| Default Gateway | 192.168.10.1  |
+| DNS Server      | 192.168.10.10 |
+
+---
 
 ## Installed Roles
 
-- Active Directory Domain Services
-- DNS Server
-- DHCP Server
+The following Windows Server roles were installed and configured:
+
+* Active Directory Domain Services (AD DS)
+* DNS Server
+* DHCP Server
+
+---
 
 ## Organizational Units
 
-- IT
-- HR
-- Sales
-- Workstations
-- Servers
+The following Organizational Units (OUs) were created to organize users, computers, and resources:
+
+* IT
+* HR
+* Sales
+* Workstations
+* Servers
+
+---
+
+## Lab Architecture
+
+```text
+DC01 (192.168.10.10)
+│
+├── Active Directory
+├── DNS
+├── DHCP
+├── Users & Groups
+└── File Shares
+```
+
+---
+
+## Validation
+
+The following configuration tasks were successfully completed:
+
+* Installed Windows Server 2022
+* Assigned a static IP address
+* Installed AD DS, DNS, and DHCP roles
+* Promoted the server to a Domain Controller
+* Created the gallegos.local domain
+* Created Organizational Units
+* Verified Active Directory functionality
+
+---
+
+## Skills Demonstrated
+
+* Windows Server Administration
+* Active Directory Administration
+* DNS Configuration
+* DHCP Configuration
+* Network Configuration
+* Virtualization
+* Enterprise Infrastructure Deployment
+
+---
 
 ## Purpose
 
-This environment simulates a small enterprise infrastructure used for identity management, access control, and shared resources.
+This environment simulates a small enterprise infrastructure used for identity management, access control, resource administration, and centralized authentication.
+
+The lab serves as the foundation for future projects involving Group Policy, Windows administration, security monitoring, networking, and enterprise system management.
