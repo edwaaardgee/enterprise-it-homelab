@@ -2,9 +2,19 @@
 
 ## Overview
 
-This project simulates a small enterprise IT environment using virtualization, Windows Server, Active Directory, networking services, client management, and security concepts.
+This project demonstrates the deployment of a Windows Server 2022 Active Directory environment in VMware Workstation.
 
-The goal is to build hands-on experience similar to real enterprise environments used by system administrators, help desk teams, infrastructure engineers, and cybersecurity analysts.
+The lab includes:
+
+Domain Controller deployment
+Active Directory Domain Services (AD DS)
+Organizational Unit (OU) design
+User and group administration
+Security group membership
+Shared folder creation
+NTFS and Share permissions
+Windows 11 domain join
+Client access validation
 
 ---
 
