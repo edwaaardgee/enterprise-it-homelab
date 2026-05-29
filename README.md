@@ -30,7 +30,7 @@ The lab includes:
 - Organizational Units (OUs)
 - Users and Groups
 - DNS
-- Shared Resources
+- SMB File Shares
 - NTFS Permissions
 - Group Policy Management
 - DHCP
@@ -120,6 +120,19 @@ CLIENT01 (Windows 11)
 ![DHCP Pool](screenshots/17_DHCP_Address_Pool.png)
 ---
 
+## Project Outcomes
+
+- Deployed a Windows Server 2022 domain controller in VMware Workstation
+- Created and managed Organizational Units, users, and security groups
+- Configured password and account lockout policies through Group Policy
+- Implemented shared folders with NTFS and share permissions
+- Mapped network drives automatically using Group Policy Preferences
+- Configured a DHCP scope for automated IP address assignment
+- Successfully joined a Windows 11 workstation to the domain
+- Verified authentication, authorization, and resource access across the environment
+
+  ---
+  
 ## Skills Demonstrated
 
 - Active Directory Administration
