@@ -118,6 +118,7 @@ CLIENT01 (Windows 11)
 
 ### 17. DHCP Address Pool
 ![DHCP Pool](screenshots/17_DHCP_Address_Pool.png)
+
 ---
 
 ## Project Outcomes
