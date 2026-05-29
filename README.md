@@ -100,6 +100,21 @@ CLIENT01 (Windows 11)
 
 ---
 
+## Documentation
+
+Detailed implementation guides are available in the documentation folder:
+
+- Lab_Setup.md
+- User_Creation.md
+- Group_Configuration.md
+- File_Share_Setup.md
+- Password_Policy_GPO.md
+- Account_Lockout_Policy.md
+- Drive_Mapping_GPO.md
+- DHCP_Configuration.md
+  
+---
+
 ## Project Outcomes
 
 - Deployed a Windows Server 2022 domain controller in VMware Workstation
