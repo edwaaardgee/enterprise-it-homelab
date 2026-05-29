@@ -71,28 +71,31 @@ CLIENT01 (Windows 11)
 ### 1. Domain Controller Configuration
 ![DC01](screenshots/01_DC01_Configured.png)
 
-### 2. Users and Groups
+### 2. Organizational Unit Structure 
+![OU Structure](screenshots/02_OU_Structure.png)
+
+### 3. Users and Groups
 ![Users and Groups](screenshots/03_Users_and_Groups.png)
 
-### 3. Share Permissions
+### 4. Share Permissions
 ![Share Permissions](screenshots/06_File_Share_Permissions.png)
 
-### 4. Client Domain Join
+### 5. Client Domain Join
 ![Client Domain Join](screenshots/07_Client_Joined_Domain.png)
 
-### 5. Share Access Verification
+### 6. Share Access Verification
 ![Share Access](screenshots/09_Share_Access_Verified.png)
 
-### 6. Password Policy Verified
+### 7. Password Policy Verified
 ![Password Policy Verified](screenshots/12_Password_Policy_Verified.png)
 
-### 7. Locked Account Verification
+### 8. Locked Account Verification
 ![Locked Account](screenshots/14_Account_Lockedout_Verified.png)
 
-### 8. Drive Mapping GPO
+### 9. Drive Mapping GPO
 ![Drive Mapping](screenshots/15_Drive_Mapping_GPO.png)
 
-### 9. DHCP Scope Configuration
+### 10. DHCP Scope Configuration
 ![DHCP Scope](screenshots/16_DHCP_Scope.png)
 
 ---
