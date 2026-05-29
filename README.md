@@ -40,27 +40,49 @@ The lab includes:
 | CLIENT01 | Windows 11 Domain-Joined Workstation |
 
 ---
+## Lab Architecture
 
+DC01 (192.168.10.10)
+│
+├── Active Directory
+├── DNS
+├── Users & Groups
+└── File Shares
+
+CLIENT01 (192.168.10.20)
+│
+├── Domain Joined
+└── Share Access Testing
+
+---
 
 ## Screenshots
 ### Domain Controller Configuration
 ![DC01](screenshots/01_DC01_Configured.png)
 
-- Organizational Unit Structure
+### 2. Organizational Unit Structure
+![OU Structure](screenshots/02_OU_Structure.png)
 
-- Users and Groups
+### 3. Users and Groups
+![Users and Groups](screenshots/03_Users_and_Groups.png)
 
-- User and Group Details
+### 4. User and Group Details
+![User and Group Details](screenshots/04_Users_and_Groups_Detail.png)
 
-- Group Membership
+### 5. Group Membership
+![Group Membership](screenshots/05_Group_Membership.png)
 
-- Share Permissions
+### 6. Share Permissions
+![Share Permissions](screenshots/06_File_Share_Permissions.png)
 
-- Client Domain Join
+### 7. Client Domain Join
+![Client Domain Join](screenshots/07_Client_Joined_Domain.png)
 
-- Client Object in Active Directory
+### 8. Client Object in Active Directory
+![Client In AD](screenshots/08_Client_In_Active_Directory.png)
 
-- Share Access Verification
+### 9. Share Access Verification
+![Share Access](screenshots/09_Share_Access_Verified.png)
 
 ---
 
