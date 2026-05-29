@@ -86,6 +86,14 @@ CLIENT01 (192.168.10.20)
 ### 9. Share Access Verification
 ![Share Access](screenshots/09_Share_Access_Verified.png)
 
+### 10. Password Policy (Before)
+![Password Policy Before](screenshots/10_Password_Policy_Before.png)
+
+### 11. Password Policy Configured
+![Password Policy Configured](screenshots/11_Password_Policy_Configured.png)
+
+### 12. Password Policy Verified
+![Password Policy Verified](screenshots/12_Password_Policy_Verified.png)
 ---
 
 ## Skills Demonstrated
