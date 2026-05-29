@@ -108,7 +108,7 @@ CLIENT01 (Windows 11)
 ![Account Lockout](screenshots/13_Account_Lockout_Policy.png)
 
 ### 14. Locked Account Verification
-![Locked Account](screenshots/14_Account_Locked_Out.png)
+![Locked Account](screenshots/14_Account_Lockedout_Verified.png)
 
 ### 15. Drive Mapping GPO
 ![Drive Mapping](screenshots/15_Drive_Mapping_GPO.png)
