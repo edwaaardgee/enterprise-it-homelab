@@ -39,58 +39,6 @@ Domain Controller deployment
 
 ---
 
-## Planned Environment
-
-DC01
-- Active Directory
-- DNS
-- DHCP
-- Group Policy
-- User Management
-
-CLIENT01
-- Domain Join
-- User Login Testing
-- Shared Folder Access
-- Policy Testing
-
-KALI01
-- Packet Analysis
-- Security Monitoring
-- Wireshark Testing
-
----
-
-## Project Phases
-
-### Phase 1
-VM Setup
-
-### Phase 2
-Windows Server Installation
-
-### Phase 3
-Active Directory Deployment
-
-### Phase 4
-Users, Groups, and Permissions
-
-### Phase 5
-DHCP and DNS Configuration
-
-### Phase 6
-Group Policy Configuration
-
-### Phase 7
-Client Domain Join
-
-### Phase 8
-Security Monitoring
-
-### Phase 9
-Documentation and GitHub Publishing
-
----
 
 ## Screenshots
 
