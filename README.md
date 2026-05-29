@@ -108,5 +108,8 @@ CLIENT01 (192.168.10.20)
 - NTFS Permissions
 - Windows Client Administration
 - Troubleshooting
+- Group Policy Management
+- Password Policy Administration
+- Active Directory Security
 
 This project demonstrates core Windows enterprise administration skills commonly used in help desk, systems administration, infrastructure support, and IT operations roles.
