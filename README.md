@@ -41,8 +41,23 @@ Domain Controller deployment
 
 
 ## Screenshots
+1. Domain Controller Configuration
 
-Screenshots and documentation will be added during project development.
+2. Organizational Unit Structure
+
+3. Users and Groups
+
+4. User and Group Details
+
+5. Group Membership
+
+6. Share Permissions
+
+7. Client Domain Join
+
+8. Client Object in Active Directory
+
+9. Share Access Verification
 
 ---
 
