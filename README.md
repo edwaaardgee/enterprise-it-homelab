@@ -35,7 +35,6 @@ Domain Controller deployment
 |----|---------|
 | DC01 | Domain Controller |
 | CLIENT01 | Windows Client Workstation |
-| KALI01 | Security Testing VM |
 
 ---
 
