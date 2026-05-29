@@ -21,6 +21,7 @@ The lab includes:
 ## Technologies Used
 - VMware Workstation
 - Windows Server 2022
+- Windows 11
 - Active Directory Domain Services (AD DS)
 - Organizational Units (OUs)
 - Users and Groups
@@ -35,14 +36,15 @@ The lab includes:
 
 | VM | Purpose |
 |----|---------|
-| DC01 | Domain Controller |
-| CLIENT01 | Windows Client Workstation |
+| DC01 | Windows Server 2022 Domain Controller |
+| CLIENT01 | Windows 11 Domain-Joined Workstation |
 
 ---
 
 
 ## Screenshots
-- Domain Controller Configuration
+### Domain Controller Configuration
+![DC01](screenshots/01_DC01_Configured.png)
 
 - Organizational Unit Structure
 
