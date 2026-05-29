@@ -14,6 +14,10 @@ The lab includes:
 - Shared folder creation
 - NTFS and Share permissions
 - Windows 11 domain join
+- Password policy configuration
+- Account lockout policy
+- Drive Mapping Group Policy
+- DHCP scope configuration
 - Client access validation
 
 ---
@@ -28,6 +32,8 @@ The lab includes:
 - DNS
 - Shared Resources
 - NTFS Permissions
+- Group Policy Management
+- DHCP
 
 
 ---
@@ -43,16 +49,19 @@ The lab includes:
 ## Lab Architecture
 
 ```text
-DC01 (192.168.10.10)
+DC01 (Windows Server 2022)
 │
 ├── Active Directory
 ├── DNS
-├── Users & Groups
-└── File Shares
+├── DHCP
+├── Group Policy
+├── File Shares
+└── Security Policies
 
-CLIENT01 (192.168.10.20)
+CLIENT01 (Windows 11)
 │
 ├── Domain Joined
+├── Mapped Network Drive
 └── Share Access Testing
 ```
 
@@ -94,6 +103,21 @@ CLIENT01 (192.168.10.20)
 
 ### 12. Password Policy Verified
 ![Password Policy Verified](screenshots/12_Password_Policy_Verified.png)
+
+### 13. Account Lockout Policy
+![Account Lockout](screenshots/13_Account_Lockout_Policy.png)
+
+### 14. Locked Account Verification
+![Locked Account](screenshots/14_Account_Locked_Out.png)
+
+### 15. Drive Mapping GPO
+![Drive Mapping](screenshots/15_Drive_Mapping_GPO.png
+
+### 16. DHCP Scope Configuration
+![DHCP Scope](screenshots/16_DHCP_Scope.png
+
+### 17. DHCP Address Pool
+![DHCP Pool](screenshots/17_DHCP_Address_Pool.png)
 ---
 
 ## Skills Demonstrated
@@ -111,5 +135,10 @@ CLIENT01 (192.168.10.20)
 - Group Policy Management
 - Password Policy Administration
 - Active Directory Security
+- DHCP Administration
+- Group Policy Administration
+- Drive Mapping Automation
+- Account Lockout Management
+- Windows Security Policy Configuration
 
 This project demonstrates core Windows enterprise administration skills commonly used in help desk, systems administration, infrastructure support, and IT operations roles.
