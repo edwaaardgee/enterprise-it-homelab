@@ -7,26 +7,18 @@ This project demonstrates the deployment of a Windows Server 2022 Active Directo
 The lab includes:
 
 Domain Controller deployment
-Active Directory Domain Services (AD DS)
-Organizational Unit (OU) design
-User and group administration
-Security group membership
-Shared folder creation
-NTFS and Share permissions
-Windows 11 domain join
-Client access validation
+- Active Directory Domain Services (AD DS)
+- Organizational Unit (OU) design
+- User and group administration
+- Security group membership
+- Shared folder creation
+- NTFS and Share permissions
+- Windows 11 domain join
+- Client access validation
 
 ---
 
 ## Technologies Used
-
-### Virtualization
-- VMware Workstation
-- Virtual Machines
-- Snapshots
-- Network Adapters
-
-### Server Infrastructure
 - Windows Server 2022
 - Active Directory Domain Services (AD DS)
 - Organizational Units (OUs)
@@ -34,22 +26,6 @@ Client access validation
 - Shared Resources
 - NTFS Permissions
 
-### Networking
-- DHCP
-- DNS
-- IPv4 Addressing
-- Subnetting Concepts
-
-### Security
-- Group Policy Objects (GPO)
-- Password Policies
-- Account Lockout Policies
-- Windows Firewall
-- Event Viewer Monitoring
-
-### Security Tools
-- Kali Linux
-- Wireshark
 
 ---
 
