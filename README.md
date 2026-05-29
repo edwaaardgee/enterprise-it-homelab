@@ -101,4 +101,4 @@ CLIENT01 (192.168.10.20)
 - Windows Client Administration
 - Troubleshooting
 
-This project was built to develop hands-on experience with enterprise Windows environments and foundational system administration concepts.
+This project demonstrates core Windows enterprise administration skills commonly used in help desk, systems administration, infrastructure support, and IT operations roles.
