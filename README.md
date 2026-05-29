@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the deployment of a Windows Server 2022 Active Directory environment in VMware Workstation.
+This project demonstrates the deployment and administration of a Windows Server 2022 enterprise environment using Active Directory, DNS, DHCP, Group Policy, file sharing, and Windows 11 domain integration in VMware Workstation.
 
 The lab includes:
 
