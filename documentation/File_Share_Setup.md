@@ -56,7 +56,6 @@ The following tests were performed:
 - Verified SMB shares were created successfully
 - Verified NTFS permissions matched department requirements
 - Verified domain users could access authorized shares
-- Verified unauthorized users were restricted from accessing protected resources
 - Verified CLIENT01 could access shared resources after joining the domain
 
 ---
